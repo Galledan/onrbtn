@@ -1,9 +1,30 @@
-/* add css module styles here (optional) */
+.button {
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: white;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.primary {
+  background-color: blue;
+  color: white;
+}
+
+.default {
+  border: 1px solid #ddd;
+  color: black;
+}
+
+.dashed {
+  border: 1px dashed black;
+}
+
+.text {
+  border: 0px;
+}
+
+.link {
+  text-decoration: underline;
+  border: 0px;
+  color: blue;
 }

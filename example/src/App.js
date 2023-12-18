@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'onrbtn'
+import {Button } from 'onrbtn'
 import 'onrbtn/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+  <>
+    <Button type='primary'>Primary</Button>
+    <Button type='default'>Default</Button>
+    <Button type='dashed'>Dashed</Button>
+    <Button type='text'>Text</Button>
+    <Button type='link'>Link</Button>
+  </>
+  )
 }
 
 export default App
